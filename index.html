@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Translator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Enter any text</h1>
+    <input type="text" id="text">
+    <h1>Select language code</h1>
+    <select name="drop" id="drop" ></select><br>
+    <button onclick="trans()" >Translate</button>
+    <h1>Result : <p id="result"></p></h1>    
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./translate.js"></script>
+</body>
+</html>
